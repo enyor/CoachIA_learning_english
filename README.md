@@ -6,8 +6,6 @@ The exercise is oriented to lead the student to not translate in his brain the w
 
 The objective of the test is to allow the evaluation of each exercise to be carried out autonomously by an AI algorithm and thus be able to massify this form of teaching through immersion, neurolinguistics and neuroplasticity.
 
-Translated with www.DeepL.com/Translator (free version)
-
 
 ## Install
 
