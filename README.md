@@ -11,38 +11,53 @@ The objective of the test is to allow the evaluation of each exercise to be carr
 
 Clone this repo
 ### Create env
+```bash
 python3 -m venv env
+```
 ### Activate enviroment (Windows)
+```bash
 .\Scripts\activate
-
+```
 ### Activate enviroment (Windows Power Shell)
+```bash
  .\env\Scripts\Activate.ps1
+ ```
 ### Activate enviroment (Linux)
-source ./bin/activate
-
+```bash
+ source ./bin/activate
+ ```
 ### Activate enviroment (Linux and fish)
+```bash
 source ./bin/activate.fish
 
+```
+
 ### Install requirements
+```bash
 pip install -r ./requirements.txt
+```
 
 ### Run in test mode
+```bash
  python -m flask --app .\beta.py run
-
+```
  or other port
 
+```bash
  python -m flask --app beta.py run -p 5001 -h 0.0.0.0
-
+```
  or with certs
 
+```bash
  python -m flask --app beta.py run -p 5001 -h 0.0.0.0 --cert <pathtocert>/fullchain.pem --key <pathtocert>/privkey.pem --reload 
-
+```
 
 ## Using Docker
-
+```bash
 docker image build -t coach_ai .
-docker run -p 5000:5000 coach_ai
 
+docker run -p 5000:5000 coach_ai
+```
  ## Usage
 
 - Run app (before step)
