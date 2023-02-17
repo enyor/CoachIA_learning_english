@@ -1,0 +1,101 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Documentation Template</title>
+    <meta name="description" content="A simple HTML/CSS DocumentationTemplate">
+    <meta name="author" content="RFE Team">
+
+    <link rel="stylesheet" href={{ url_for('static', filename="style.css") }}>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,600&display=swap" rel="stylesheet">
+    
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <div class="navbar clear nav-top">
+        <div class="row content">
+            <a href="#"><img class="logo" src="logo.svg"></a>
+            <a class="right" style="text-decoration: underline;" href="#"><i class="fas fa-book"></i>&nbsp; Documentación</a>
+            <a class="right" href="mailto:enyor888@gmail.com" target="_blank"><i class="fas fa-paper-plane"></i>&nbsp; enyor888@gmail.com</a>
+        </div>
+    </div>
+
+    <div class="container clear">
+        <div class="row wrapper">
+
+            <div class="sidepanel">
+
+                <a class="title" href="#">Introducción</a>
+                
+                <a class="section" href="#">Compatibilidad</a>
+                <a class="section" href="#">Sobre este aplicativo</a>
+                <a class="section" href="#technology">Tecnología aplicada</a>
+
+                <div class="divider left"></div>
+
+                <a class="title" href="#openingapp">Accediendo a la aplicación</a>
+
+
+            </div>
+
+            <div class="right-col">
+            
+
+
+                <h1 >Introducción</h1>
+                
+                <p>Una pequeña aplicación web que busca mediante el uso de IA mejorar la capacidades conversacionales de los estudiantes, haciendo uso de algoritmos de IA como speech-to-text se puede crear un modelo gramatical cerrado que evalúe específicamente las palabras o frases de cada ejercicio aumentando asi la velocidad de procesamiento y evaluación del mismo.</p> 
+
+                <p>El ejercicio va orientado a llevar al estudiante a no traducir en su cerebro las palabras que ve en pantalla esto último haciendo uso del programa de Neurolinguistica y Neuroplasticidad desarrollado por Salvatore Marrone.</p> 
+                    
+                <p>El objetivo de la prueba es permitír que la evaluación de cada ejercicio sea realizada de forma autónoma por un altgoritmo de IA y asi poder masificar esta forma de enseñanza a travez de la inmersión, neurolinguistica y neuroplasticidad.</p> 
+            
+                <h2>Compatibilidad:</h2>
+             
+                <p>En esta versión solo se tendrá compatibilidad en navegadores en base a Chrome (Chromium) en versiones actuales.</p>
+
+                <h2>Sobre este aplicativo</h2>
+                
+                <p id="technology"> En esta versión se utiliza el reconocimiento de voz en tiempo real para la evaluación del ejercicio</p>
+
+                <h2>Tecnología</h2>
+                
+                <p>Este aplicativo está construido con las siguientes tecnologías: Python, Flask, Javascript, HTML and CSS.<br></p>
+
+                <p id="gettingstarted">En el caso de IA se utiliza Speech Recognition de Web Speech API (JS)</p> 
+                 
+        <div class="divider" style="width:24%; margin:30px 0;"></div>              
+
+                <h2>Accediendo a la aplicación</h2>
+                
+                  <p>Al ser un aplicativo web es muy simple solo debe seguir uno de los siguientes enlaces según sea el caso</p>
+                
+                 <ol>
+                    <li>
+                     <a href="/">Ejercicio 1</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href="/doc">Documentación</a>
+                    </li>
+                    <br>
+                </ol>
+
+                
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
