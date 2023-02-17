@@ -29,18 +29,24 @@ pip install -r ./requirements.txt
 ### Run in test mode
  python -m flask --app .\beta.py run
 
- or 
+ or other port
 
  python -m flask --app beta.py run -p 5001 -h 0.0.0.0
 
- or 
+ or with certs
 
  python -m flask --app beta.py run -p 5001 -h 0.0.0.0 --cert <pathtocert>/fullchain.pem --key <pathtocert>/privkey.pem --reload 
 
 
+## Using Docker
+
+docker image build -t coach_ai .
+docker run -p 5000:5000 coach_ai
+
  ## Usage
 
 - Run app (before step)
+- Go to 127.0.0.1:5000
 - Execute video exercise
 - Talk in Part 7
 - Receive your score
